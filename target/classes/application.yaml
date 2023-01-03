@@ -1,0 +1,8 @@
+debug: false
+com:
+  example:
+    demo:
+      settings:
+        proxy:
+          host: example.com
+          port: 443

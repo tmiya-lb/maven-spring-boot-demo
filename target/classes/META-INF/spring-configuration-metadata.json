@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "com.example.demo.application",
+      "type": "com.example.demo.ApplicationSetting",
+      "sourceType": "com.example.demo.ApplicationSetting"
+    },
+    {
+      "name": "com.example.demo.settings",
+      "type": "com.example.demo.Settings",
+      "sourceType": "com.example.demo.Settings"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.example.demo.application.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.ApplicationSetting"
+    },
+    {
+      "name": "com.example.demo.application.s3",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.example.demo.ApplicationSetting"
+    }
+  ],
+  "hints": []
+}
